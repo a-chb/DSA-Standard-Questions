@@ -1,4 +1,4 @@
-<p><h2>This repository contaains solutions of standard problems of Data Structures and Algorithms. </h2></p>
+<p><h2>This repository contains solutions of standard problems of Data Structures and Algorithms. </h2></p>
 <ul>
 
 Arrays
