@@ -22,12 +22,24 @@ Time Complexity O(n*log(n))
 Space Complexity O(1).
   
   ||--------------------------------------------Code Begins--------------------------------------------||
+#Approch: 01
 
- ```
 if (s.size() != t.size())
              return false;
         sort(s.begin(), s.end());
         sort(t.begin(), t.end());
         return (s == t);
 
-```
+
+
+#Approch: 02
+
+int n = s.length(),m = t.length();
+        if(n!=m) return false;
+        unordered_map<char,int> mp(26);
+        for(auto x: s) mp[x]++;
+        for(auto x: t) mp[x]--;
+        for(auto x: mp){
+            if(x.second > 0) return false;
+        }
+        return true;
