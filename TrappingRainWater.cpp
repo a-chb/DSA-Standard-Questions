@@ -6,11 +6,9 @@ In this case, 6 units of rain water (blue section) are being trapped.
     
   ||========================================>Solutions<========================================||
     
-    
 Runtime: 24 ms, faster than 53.61% of C++ online submissions for Trapping Rain Water.
 Memory Usage: 19.7 MB, less than 90.14% of C++ online submissions for Trapping Rain Water.
-  
-  
+    
  /*----------------------------Code Begins----------------------------*/
  
  class Solution {
