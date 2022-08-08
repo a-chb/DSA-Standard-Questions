@@ -1,3 +1,20 @@
+Longest Increasing Subsequence
+
+Given an integer array nums, return the length of the longest strictly increasing subsequence.
+A subsequence is a sequence that can be derived from an array by deleting some or no elements without changing the order of the remaining elements.
+For example, [3,6,2,7] is a subsequence of the array [0,3,1,6,2,2,7].
+
+ 
+
+Example 1:
+Input: nums = [10,9,2,5,3,7,101,18]
+Output: 4
+Explanation: The longest increasing subsequence is [2,3,7,101], therefore the length is 4.
+
+	
+	||================================================>Solution<================================================||
+	
+	
 Runtime: 10 ms, faster than 93.16% of C++ online submissions for Longest Increasing Subsequence.
 Memory Usage: 10.4 MB, less than 88.72% of C++ online submissions for Longest Increasing Subsequence.
 
