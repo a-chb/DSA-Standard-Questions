@@ -1,6 +1,7 @@
 ||================================================>Solution<================================================||
-  
-  Approch: 1 Iterrative
+ 
+ Approch: 1 Iterrative
+ 
     Runtime: 0 ms, faster than 100.00% of C++ online submissions for Verifying an Alien Dictionary.
     Memory Usage: 9.5 MB, less than 76.20% of C++ online submissions for Verifying an Alien Dictionary.
       
@@ -19,6 +20,28 @@ public:
         if (r > s) return false;
     }
     return true;
+        
+    }
+};
+
+Approch: 2 Using Hashmap
+
+Runtime: 14 ms, faster than 15.39% of C++ online submissions for Verifying an Alien Dictionary.
+Memory Usage: 9.6 MB, less than 37.75% of C++ online submissions for Verifying an Alien Dictionary.
+
+unordered_map<char,char> m;
+        for(int i=0;i<26;i++)
+        {
+            m[order[i]]=i;
+        }
+        for(auto &w:words)
+        {
+            for(auto &ch:w)
+            {
+                ch = m[ch];
+            }
+        }
+        return is_sorted(words.begin(),words.end());
         
     }
 };
