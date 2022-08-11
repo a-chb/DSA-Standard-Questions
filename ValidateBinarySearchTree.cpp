@@ -16,6 +16,9 @@ Explanation: The root node's value is 5 but its right child's value is 4.
  
  ||==============================>Solution<==============================||
 
+ Runtime: 25 ms, faster than 26.75% of C++ online submissions for Validate Binary Search Tree.
+ Memory Usage: 21.7 MB, less than 70.37% of C++ online submissions for Validate Binary Search Tree.
+ 
  Approch: 01 Brut Force
  
  class Solution {
