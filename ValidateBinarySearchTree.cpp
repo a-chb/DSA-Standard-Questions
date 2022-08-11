@@ -16,4 +16,35 @@ Explanation: The root node's value is 5 but its right child's value is 4.
  
  ||==============================>Solution<==============================||
 
+ Approch: 01 Brut Force
  
+ class Solution {
+public:
+    bool isValidBST(TreeNode* root) {
+        if(root == NULL) return true;
+        int leftMax = maxLeft(root->left);
+        int rightMin = minRight(root->right);
+        if(leftMax > root->val || rightMin < root->val) return false;
+        
+        bool left = isValidBST(root->left);
+        bool right = isValidBST(root -> right);
+        
+        if(left == true && right == true) return true;
+        else return false;
+       if(!root) return true;
+   }
+    int maxLeft(TreeNode* root){
+        while(root->left != NULL){
+            root = root->left;}
+        return root->val;
+    }
+    int minRight(TreeNode* root){
+        while(root -> right != NULL){
+            root = root->right;
+        }
+        return root->val;
+    }
+
+};
+
+Approch: 02 Optimized
