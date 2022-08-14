@@ -17,8 +17,8 @@ Explanation: F(3) = F(2) + F(1) = 1 + 1 = 2.
 
 ||==============================>Solution<==============================||
 
-Runtime: 16 ms, faster than 29.59% of C++ online submissions for Fibonacci Number.
-Memory Usage: 5.8 MB, less than 96.11% of C++ online submissions for Fibonacci Number.
+Runtime: 0 ms, faster than 100.00% of C++ online submissions for Fibonacci Number.
+Memory Usage: 6 MB, less than 39.89% of C++ online submissions for Fibonacci Number.
 
 Approch: 1 Recursive TC-> O(2N)
   
