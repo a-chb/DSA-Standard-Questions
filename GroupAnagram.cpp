@@ -15,7 +15,7 @@ Output: [["a"]]
 
 ||===========================>Solution<===========================||
 
-Runtime: 55 ms, faster than 60.58% of C++ online submissions for Group Anagrams.
+Runtime: 34 ms, faster than 95.06% of C++ online submissions for Group Anagrams.
 Memory Usage: 20.7 MB, less than 41.38% of C++ online submissions for Group Anagrams.
   
 class Solution {
