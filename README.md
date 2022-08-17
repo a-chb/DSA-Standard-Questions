@@ -2,7 +2,15 @@
 This repository contains very handily crafted and picked top coding interview questions from different topics of Data Structures & Algorithms. These questions are one of the most asked coding interview questions in coding interviews of companies like Amazon, Microsoft, Media.net, Flipkart, etc, and cover almost all of the concepts related to Data Structure & Algorithms.
 
 
-<h2>This repository contains solutions of standard problems of Data Structures and Algorithms. </h2>
+## Roadmap
+
+- Understanding of topics
+
+- Questions solved based on understanding
+
+
+
+## Topics Coverred
 
 Arrays
 
@@ -49,3 +57,4 @@ BFS
 Graph LRU Cache
 
 Number Theory & Bit Manipulation
+
