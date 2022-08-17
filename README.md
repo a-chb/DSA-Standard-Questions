@@ -58,6 +58,10 @@ Graph LRU Cache
 
 Number Theory & Bit Manipulation
 
+## Tech Stack
+
+**LanguageUsed:** C++
+
 ## Feedback
 
 If you have any feedback, please reach out to us at different.chb@gmail.com
