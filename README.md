@@ -10,7 +10,7 @@ This repository contains very handily crafted and picked top coding interview qu
 
 
 
-## Topics Coverred
+## Topics Covered
 
 Arrays
 
