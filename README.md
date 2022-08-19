@@ -2,7 +2,7 @@
 This repository contains very handily crafted and picked top coding interview questions from different topics of Data Structures & Algorithms. These questions are one of the most asked coding interview questions in coding interviews of companies like Amazon, Microsoft, Media.net, Flipkart, etc, and cover almost all of the concepts related to Data Structure & Algorithms.
 
 
-## Roadmap
+# Roadmap
 
 - Understanding of topics
 
@@ -10,59 +10,41 @@ This repository contains very handily crafted and picked top coding interview qu
 
 
 
-## Topics Covered
+# Topics Covered
 
-Arrays
-
-Linked lists
-
-Pairs, Sets and Maps
-
-Strings
-
-Stack
-
-Monotonic Stack
-
-Trie
-
-Queues
-
-Recursion Memoization
-
-Tree
-
-Binary Tree
-
-Binary Search Tree
-
-Heaps (Priority queue)
-
-Backtracking
-
-Dynamic Programming
-
-Greedy Algo
-
-DFS Connected Components
-
-Topological sort
-
-DFS Cycle Detection
-
-Graphs
-
-BFS
-
-Graph LRU Cache
-
-Number Theory & Bit Manipulation
+## Data Structures
+- Arrays
+- Linked lists
+- Pairs, Sets and Maps
+- Strings
+- Stack
+- Monotonic Stack
+- Trie
+- Queues
+- Heaps (Priority queue)
+- Tree
+- Binary Tree
+- Binary Search Tree
+- Graphs
+## Approch
+- Recursion Memoization
+- Backtracking
+- Dynamic Programming
+## Algorithms
+- Greedy Algo
+- DFS Connected Components
+- Topological sort
+- DFS Cycle Detection
+- BFS
+- Graph LRU Cache
+## Mathematics
+- Number Theory & Bit Manipulation
 
 ## Tech Stack
 
-**LanguageUsed:** C++
+**Language used:** C++
 
 ## Feedback
 
-If you have any feedback, please reach out to us at different.chb@gmail.com
+If you have any feedback, please reach out to me at different.chb@gmail.com
 
