@@ -34,3 +34,55 @@ public:
         return 1;
     }
 };
+
+  Approch: 2 Optimized O(N) Time && O(1) Space.
+    
+    Runtime: 451 ms, faster than 25.73% of C++ online submissions for Palindrome Linked List.
+    Memory Usage: 118.1 MB, less than 50.21% of C++ online submissions for Palindrome Linked List.
+class Solution {
+public:
+    ListNode* findMiddle(ListNode* head){
+        ListNode* slow = head;
+        ListNode* fast = head->next;
+        while(fast != NULL && fast ->next != NULL){
+            fast = fast->next->next;
+            slow = slow->next;
+        }
+        return slow;
+    }
+    
+    ListNode* reverseLL(ListNode* head){
+        ListNode* curr = head;
+        ListNode* prev = NULL;
+        ListNode* next = NULL;
+        while(curr!=NULL){
+            next = curr->next;
+            curr->next = prev;
+            prev = curr;
+            curr = next;
+        }
+        return prev;
+    }
+    
+    bool isPalindrome(ListNode* head) {
+        if(head->next == NULL) return true; 
+        ListNode* middle = findMiddle(head);
+        
+        ListNode* temp = middle->next;
+        middle->next = reverseLL(temp);
+        
+        ListNode* check1 = head;
+        ListNode* check2 = middle->next;
+        
+        while(check2 != NULL){
+            if(check1->val != check2->val) return false;
+            check1 = check1->next;
+            check2 = check2->next;
+        }
+        
+        temp = middle->next;
+        middle->next = reverseLL(temp);
+        
+        return true;
+    }      
+};
