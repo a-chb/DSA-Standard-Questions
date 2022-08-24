@@ -12,9 +12,9 @@ Output: false
 
 ||============================================>Solution<============================================||
 
-Runtime: 0 ms, faster than 100.00% of C++ online submissions for Power of Four.
-Memory Usage: 5.9 MB, less than 24.97% of C++ online submissions for Power of Four.
-  
+  Runtime: 0 ms, faster than 100.00% of C++ online submissions for Power of Four.
+  Memory Usage: 5.9 MB, less than 24.97% of C++ online submissions for Power of Four.
+
 class Solution {
 public:
     bool isPowerOfFour(int n) {
