@@ -1,12 +1,28 @@
 ||========================================>Solution<========================================||
   
+  Approach 1 Brutforce solution
+      Time Complexity : O(m * n)
+      Space Complexity : O(1)
+  Runtime: 841 ms, faster than 5.03% of C++ online submissions for Intersection of Two Linked Lists.
+  Memory Usage: 14.6 MB, less than 73.59% of C++ online submissions for Intersection of Two Linked Lists.
   
-  
-  
-  
-  
-  Approach 2
-  Optimized: Using two pointer
+class Solution {
+public:
+    ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
+        ListNode* temp;
+        while(headA != NULL){
+            temp = headB;
+            while(temp != NULL){
+                if(headA == temp) return headA;
+                temp = temp->next;
+            }
+            headA = headA->next;
+        }
+        return NULL;
+    }
+};
+
+  Approach 2 Optimized solution using Two Pointer
       Time Complexity : O(m + n)
       Space Complexity : O(1)
   
