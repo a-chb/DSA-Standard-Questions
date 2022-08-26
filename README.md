@@ -12,7 +12,7 @@ This repository contains very handily crafted and picked top coding interview qu
 
 # Topics Covered
 
-## Data Structures
+### Data Structures
 - Arrays
 - Linked lists
 - Pairs, Sets and Maps
@@ -26,18 +26,18 @@ This repository contains very handily crafted and picked top coding interview qu
 - Binary Tree
 - Binary Search Tree
 - Graphs
-## Approch
+### Approch
 - Recursion Memoization
 - Backtracking
 - Dynamic Programming
-## Algorithms
+### Algorithms
 - Greedy Algo
 - DFS Connected Components
 - Topological sort
 - DFS Cycle Detection
 - BFS
 - Graph LRU Cache
-## Mathematics
+### Mathematics
 - Number Theory & Bit Manipulation
 
 ## Tech Stack
