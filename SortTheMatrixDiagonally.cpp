@@ -10,7 +10,7 @@ Output: [[5,17,4,1,52,7],[11,11,25,45,8,69],[14,23,25,44,58,15],[22,27,31,36,50,
 
 ||========================================>Solution<========================================||
 
-Runtime: 49 ms, faster than 5.15% of C++ online submissions for Sort the Matrix Diagonally.
+Runtime: 50 ms, faster than 5.15% of C++ online submissions for Sort the Matrix Diagonally.
 Memory Usage: 8.7 MB, less than 88.57% of C++ online submissions for Sort the Matrix Diagonally.
   
 class Solution {
