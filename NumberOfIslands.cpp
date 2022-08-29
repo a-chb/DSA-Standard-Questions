@@ -20,7 +20,7 @@ Input: grid = [
 ]
 Output: 3
 
-||========================================>Solution<==================================================||
+||===================================================>Solution<==================================================||
 
 Runtime: 46 ms, faster than 71.58% of C++ online submissions for Number of Islands.
 Memory Usage: 12.3 MB, less than 83.10% of C++ online submissions for Number of Islands.
