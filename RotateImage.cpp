@@ -15,3 +15,22 @@ Output: [[15,13,2,5],[14,3,4,1],[12,6,8,9],[16,7,10,11]]
 
 Runtime: 6 ms, faster than 23.35% of C++ online submissions for Rotate Image.
 Memory Usage: 7 MB, less than 73.79% of C++ online submissions for Rotate Image.
+
+class Solution {
+public:
+    void rotate(vector<vector<int>>& matrix) {
+        int n = matrix.size();
+        int a = 0; 
+        int b = n-1;
+        while(a<b){
+            for(int i=0; i<(b-a); i++){
+                swap(matrix[a][a+i], matrix[a+i][b]);
+                swap(matrix[a][a+i], matrix[b][b-i]);
+                swap(matrix[a][a+i], matrix[b-i][a]);
+            } 
+            a++;
+            b--;
+        }
+        
+    }
+};
