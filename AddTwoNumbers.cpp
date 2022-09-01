@@ -18,3 +18,43 @@ Output: [8,9,9,9,0,0,0,1]
 
 ||====================================>Solution<====================================||
   
+class Solution {
+public:
+    ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
+        
+    ListNode* sum = new ListNode();
+        ListNode* res = new ListNode(0);
+    ListNode* rtn = res;
+	
+    int val = 0;
+    while ((l1 != nullptr) || (l2 != nullptr))
+    {
+
+        if(l1 != nullptr)
+        {
+            val += l1->val;
+            l1 = l1->next;
+        }
+
+        if (l2 != nullptr)
+        {
+            val += l2->val;
+            l2 = l2->next;
+        }
+
+        if(val > 9)
+            res->next = new ListNode(val %10);
+        else
+            res->next = new ListNode(val);
+
+        res = res->next;
+
+        val /= 10;
+    }
+
+    if(val > 0)
+        res->next = new ListNode(val);
+
+    return rtn->next;
+    }
+};
