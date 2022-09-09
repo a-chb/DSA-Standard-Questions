@@ -11,8 +11,8 @@ Output: 2
 
 ||========================================================>Solution<======================================================================||
 
-Runtime: 17 ms, faster than 36.94% of C++ online submissions for Maximum Depth of Binary Tree.
-Memory Usage: 18.8 MB, less than 89.27% of C++ online submissions for Maximum Depth of Binary Tree.
+Runtime: 13 ms, faster than 59.80% of C++ online submissions for Maximum Depth of Binary Tree.
+Memory Usage: 18.9 MB, less than 14.24% of C++ online submissions for Maximum Depth of Binary Tree.
   
 class Solution {
 public:
