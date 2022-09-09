@@ -16,19 +16,19 @@ Output: 1
 Runtime: 22 ms, faster than 33.77% of C++ online submissions for Diameter of Binary Tree.
 Memory Usage: 20.3 MB, less than 26.12% of C++ online submissions for Diameter of Binary Tree.
   
-class Solution {
-public:
-    int ans = 0;
-    int height(TreeNode* root){
-        if(root == NULL) return{};
-        int leftHt = height(root->left);
-        int rightHt = height(root->right);
-        ans = max(ans,1+leftHt+rightHt);
-        return 1+ max(leftHt,rightHt);
-    }
-    int diameterOfBinaryTree(TreeNode* root) {
-        if(!root) return 0;
-        height(root);
-        return ans-1;
-    }
-};
+// class Solution {
+// public:
+//     int ans = 0;
+//     int height(TreeNode* root){
+//         if(root == NULL) return{};
+//         int leftHt = height(root->left);
+//         int rightHt = height(root->right);
+//         ans = max(ans,1+leftHt+rightHt);
+//         return 1+ max(leftHt,rightHt);
+//     }
+//     int diameterOfBinaryTree(TreeNode* root) {
+//         if(!root) return 0;
+//         height(root);
+//         return ans-1;
+//     }
+// };
