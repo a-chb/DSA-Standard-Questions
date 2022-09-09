@@ -46,5 +46,5 @@ This repository contains very handily crafted and picked top coding interview qu
 
 ## Feedback
 
-If you have any feedback, please reach out to me at different.chb@gmail.com
+If you have any feedback, please reach out to me. :fist_raised:
 
