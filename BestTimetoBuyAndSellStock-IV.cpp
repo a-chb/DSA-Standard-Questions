@@ -39,7 +39,7 @@ public:
                     dp[i][j]=0;
                 else
                 {
-					mxp=max(mxp,dp[i-1][j-1]-a[j-1]);
+		    mxp=max(mxp,dp[i-1][j-1]-a[j-1]);
                     dp[i][j]=max(dp[i][j-1],mxp+a[j]);
                 }
             }
