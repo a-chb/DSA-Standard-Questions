@@ -14,4 +14,29 @@ Output: [1]
 
 ||====================================================>Solution<====================================================||
  
- 
+  Runtime: 14 ms, faster than 9.98% of C++ online submissions for Remove Nth Node From End of List.
+  Memory Usage: 10.7 MB, less than 32.50% of C++ online submissions for Remove Nth Node From End of List.
+   
+class Solution {
+public:
+    ListNode* removeNthFromEnd(ListNode* head, int n) {
+        ListNode * slow = head;
+        ListNode * fast = head;
+        int count = n;
+        
+        while(count > 0)
+        {
+            fast = fast->next; count--;
+        }
+        
+        if(fast == NULL) return head->next; // edge case handled
+        
+        while(fast!=NULL && fast->next!=NULL)
+        {
+            slow=slow->next; fast=fast->next;
+        }
+        slow->next = slow->next->next;
+
+        return head;
+    }
+};
