@@ -21,9 +21,6 @@ Explanation: Since the tree is empty, there are no root-to-leaf paths.
 
 ||=============================================>Solution<=============================================||
 
-    Runtime: 20 ms, faster than 41.70% of C++ online submissions for Path Sum.
-    
-        
 class Solution {
 public:
     bool hasPathSum(TreeNode* root, int targetSum) {
